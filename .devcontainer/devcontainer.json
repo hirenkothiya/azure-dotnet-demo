@@ -1,0 +1,16 @@
+{
+  "name": "Azure .NET Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:6.0",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-azureappservice"
+      ]
+    }
+  }
+}
